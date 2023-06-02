@@ -6,9 +6,8 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 int fib()
 {
     int number_1 = 1, number_2 = 2, number = 3, result = 2;
-    while (number < 4 000 000)
+    while (number < 4000000)
     {
-        printf("%d\n", number);
         if (number % 2 == 0)
         {
             result += number;
